@@ -17,17 +17,21 @@
 The service is first written using Spring-boot which is in the `Sprint-boot-version` dicrectory and then using Akka architecture which is found in the `Akka-version` directory.
 
 ------------------------------------------
+### What's Savaari? 
+- Backend of `Distributed Cab Hailing` Software just like Ola, Uber etc. 
+- A software organized as a set of RESTful micro-services from scratch in SpringBoot.
+- Used `h2` database for storing related information. 
+- Containerised, packaged and deployed each service using `Docker containers`.
+- Deployed each of the containers using `Kubernetes`.
 
-### Architecture :
+### Installation: 
+- Just run `deploy.sh` script from respective directory of Spring boot and Akka. 
 
-- Spring-boot-version
-    - 
+### Testing: 
+- Strong and Comprehensive tests are written in `Tests` directory which covers all corner cases and stress situations. 
 
-
-- Akka-version
-    -
-
-
+### Details
+- Read [Requirements](Spring-Boot-version/requirements.pdf) document to understand exact reason for each component of service.    
 ------------------------------------------
 
 ### Contributors :
@@ -47,4 +51,3 @@ The service is first written using Spring-boot which is in the `Sprint-boot-vers
 
 - <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
--
