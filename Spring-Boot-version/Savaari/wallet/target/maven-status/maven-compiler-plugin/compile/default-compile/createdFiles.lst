@@ -1,0 +1,5 @@
+com/wallet/wallet/WalletApplication.class
+com/wallet/wallet/CustomerRepository.class
+com/wallet/wallet/Wallet.class
+com/wallet/wallet/Customer.class
+com/wallet/wallet/MyCommandLineRunner.class

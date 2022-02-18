@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="pods.cabs.AkkaPrivateTestCases2" time="63.175" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/resonater/iisc/Sem2/209/Project/Savaari-Akka-Phase-2"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="AkkaPrivateTestCases2"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/resonater/iisc/Sem2/209/Project/Savaari-Akka-Phase-2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.8.0-55-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/resonater"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="resonater"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=AkkaPrivateTestCases2"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="pods.cabs.AkkaPrivateTestCases2" name="testCase4" time="63.175">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at pods.cabs.AkkaPrivateTestCases2.testCase4(AkkaPrivateTestCases2.java:463)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>[2021-06-05 18:00:01,320] [INFO] [akka.event.slf4j.Slf4jLogger] [ClusterSystem-akka.actor.default-dispatcher-3] [] - Slf4jLogger started
+[2021-06-05 18:00:01,933] [INFO] [akka.remote.artery.tcp.ArteryTcpTransport] [ClusterSystem-akka.actor.default-dispatcher-3] [ArteryTcpTransport(akka://ClusterSystem)] - Remoting started with transport [Artery tcp]; listening on address [akka://ClusterSystem@127.0.0.1:39681] with UID [8423011498289239238]
+[2021-06-05 18:00:01,986] [INFO] [akka.cluster.Cluster] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:39681] - Starting up, Akka version [2.6.14] ...
+[2021-06-05 18:00:02,224] [INFO] [akka.cluster.Cluster] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:39681] - Registered cluster JMX MBean [akka:type=Cluster]
+[2021-06-05 18:00:02,225] [INFO] [akka.cluster.Cluster] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:39681] - Started up successfully
+[2021-06-05 18:00:02,374] [INFO] [akka.cluster.sbr.SplitBrainResolver] [ClusterSystem-akka.actor.default-dispatcher-6] [akka://ClusterSystem/system/cluster/core/daemon/downingProvider] - SBR started. Config: strategy [KeepMajority], stable-after [20 seconds], down-all-when-unstable [15 seconds], selfUniqueAddress [akka://ClusterSystem@127.0.0.1:39681#8423011498289239238], selfDc [default].
+[2021-06-05 18:00:03,514] [INFO] [akka.persistence.journal.PersistencePluginProxy] [ClusterSystem-akka.actor.default-dispatcher-3] [akka://ClusterSystem@127.0.0.1:39681/system/akka.persistence.journal.proxy] - Setting target journal address to akka://ClusterSystem@127.0.0.1:10001
+[2021-06-05 18:00:03,729] [INFO] [akka.cluster.sharding.typed.scaladsl.ClusterSharding] [ClusterSystem-akka.actor.default-dispatcher-6] [ClusterSharding(akka://ClusterSystem)] - Starting Shard Region [CabEntity]...
+[2021-06-05 18:00:03,846] [WARN] [akka.stream.Materializer] [ClusterSystem-akka.actor.default-dispatcher-6] [akka.stream.Log(akka://ClusterSystem/system/Materializers/StreamSupervisor-1)] - [outbound connection to [akka://ClusterSystem@127.0.0.1:10002], control stream] Upstream failed, cause: StreamTcpException: Tcp command [Connect(127.0.0.1:10002,None,List(),Some(5000 milliseconds),true)] failed because of java.net.ConnectException: Connection refused
+[2021-06-05 18:00:03,880] [WARN] [akka.stream.Materializer] [ClusterSystem-akka.actor.default-dispatcher-6] [akka.stream.Log(akka://ClusterSystem/system/Materializers/StreamSupervisor-1)] - [outbound connection to [akka://ClusterSystem@127.0.0.1:10002], message stream] Upstream failed, cause: StreamTcpException: Tcp command [Connect(127.0.0.1:10002,None,List(),Some(5000 milliseconds),true)] failed because of java.net.ConnectException: Connection refused
+[2021-06-05 18:00:04,012] [INFO] [akka.cluster.sharding.ShardRegion] [ClusterSystem-akka.actor.default-dispatcher-6] [akka://ClusterSystem@127.0.0.1:39681/system/sharding/CabEntity] - CabEntity: Idle entities will be passivated after [2.000 min]
+[2021-06-05 18:00:04,015] [INFO] [akka.cluster.sharding.typed.scaladsl.ClusterSharding] [ClusterSystem-akka.actor.default-dispatcher-6] [ClusterSharding(akka://ClusterSystem)] - Starting Shard Region [RideServiceEntity]...
+### Test Case 4 Started ###
+[2021-06-05 18:00:04,048] [INFO] [akka.cluster.sharding.ShardRegion] [ClusterSystem-akka.actor.default-dispatcher-11] [akka://ClusterSystem@127.0.0.1:39681/system/sharding/RideServiceEntity] - RideServiceEntity: Idle entities will be passivated after [2.000 min]
+[2021-06-05 18:00:04,230] [INFO] [akka.cluster.Cluster] [ClusterSystem-akka.actor.default-dispatcher-6] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:39681] - Received InitJoinAck message from [Actor[akka://ClusterSystem@127.0.0.1:10001/system/cluster/core/daemon#1171562992]] to [akka://ClusterSystem@127.0.0.1:39681]
+[2021-06-05 18:00:04,351] [INFO] [akka.cluster.Cluster] [ClusterSystem-akka.actor.default-dispatcher-6] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:39681] - Welcome from [akka://ClusterSystem@127.0.0.1:10001]
+[2021-06-05 18:00:04,547] [INFO] [akka.persistence.journal.PersistencePluginProxy] [ClusterSystem-akka.actor.default-dispatcher-27] [akka://ClusterSystem@127.0.0.1:39681/system/akka.persistence.journal.proxy] - Trying to identify target journal at ActorSelection[Anchor(akka://ClusterSystem@127.0.0.1:10001/), Path(/system/akka.persistence.journal.leveldb)]
+[2021-06-05 18:00:04,572] [INFO] [akka.persistence.journal.PersistencePluginProxy] [ClusterSystem-akka.actor.default-dispatcher-27] [akka://ClusterSystem@127.0.0.1:39681/system/akka.persistence.journal.proxy] - Found target journal at [akka://ClusterSystem@127.0.0.1:10001]
+### Cab 101, 102, 103 and 104 are Signed In
+$$$$ Ride request from Customer 201 is accepted - Ride ID : 432
+$$$$ Ride request from Customer 202 is accepted - Ride ID : 433
+$$$$ Ride request from Customer 203 is accepted - Ride ID : 434
+$$$$ Ride request from Customer 203 is accepted - Ride ID : 435
+[2021-06-05 18:00:06,447] [INFO] [akka.cluster.singleton.ClusterSingletonManager] [ClusterSystem-akka.actor.default-dispatcher-3] [akka://ClusterSystem@127.0.0.1:39681/system/sharding/CabEntityCoordinator] - ClusterSingletonManager state change [Start -&gt; Younger]
+[2021-06-05 18:00:06,450] [INFO] [akka.cluster.singleton.ClusterSingletonManager] [ClusterSystem-akka.actor.default-dispatcher-3] [akka://ClusterSystem@127.0.0.1:39681/system/sharding/RideServiceEntityCoordinator] - ClusterSingletonManager state change [Start -&gt; Younger]
+ 
+______________________ In Cab.create() cabId: cab103______________________
+ 
+[2021-06-05 18:00:16,387] [WARN] [akka.persistence.Persistence] [ClusterSystem-akka.actor.default-dispatcher-11] [Persistence(akka://ClusterSystem)] - No default snapshot store configured! To configure a default snapshot-store plugin set the `akka.persistence.snapshot-store.plugin` key. For details see &apos;reference.conf&apos;
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________Got SignInEvent  with cabId:cab103 and initialPos: 10______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________Got SignInEvent  with cabId:cab103 and initialPos: 10______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________Got SignInEvent  with cabId:cab103 and initialPos: 10______________________
+ 
+ 
+______________________ OnResetEvent with  cabId:cab103______________________
+ 
+ 
+______________________Got SignInEvent  with cabId:cab103 and initialPos: 10______________________
+ 
+ 
+______________________got RequestRideEvent on cabcab103 isInterested: false, state: 2, src,dest,rideId : 100 10 436______________________
+ 
+$$$$ Ride request from Customer 203 is Denied ! 
+ 
+______________________got RequestRideEvent on cabcab103 isInterested: false, state: 2, src,dest,rideId : 100 10 437______________________
+ 
+ 
+Checkpoint for persistence !
+ 
+[2021-06-05 18:00:19,186] [INFO] [akka.cluster.Cluster] [ClusterSystem-akka.actor.default-dispatcher-11] [Cluster(akka://ClusterSystem)] - Cluster Node [akka://ClusterSystem@127.0.0.1:39681] - Exiting confirmed [akka://ClusterSystem@127.0.0.1:10004]
+[2021-06-05 18:00:20,228] [INFO] [akka.remote.artery.Association] [ClusterSystem-akka.actor.default-dispatcher-27] [Association(akka://ClusterSystem)] - Association to [akka://ClusterSystem@127.0.0.1:10004] having UID [2639479318312159231] has been stopped. All messages to this UID will be delivered to dead letters. Reason: ActorSystem terminated
+[2021-06-05 18:00:22,761] [WARN] [akka.remote.artery.Association] [ClusterSystem-akka.actor.default-dispatcher-11] [Association(akka://ClusterSystem)] - Outbound control stream to [akka://ClusterSystem@127.0.0.1:10002] failed. Restarting it. akka.remote.artery.OutboundHandshake$HandshakeTimeoutException: Handshake with [akka://ClusterSystem@127.0.0.1:10002] did not complete within 20000 ms
+[2021-06-05 18:00:40,697] [INFO] [akka.cluster.singleton.ClusterSingletonManager] [ClusterSystem-akka.actor.default-dispatcher-11] [akka://ClusterSystem@127.0.0.1:39681/system/sharding/RideServiceEntityCoordinator] - Member removed [akka://ClusterSystem@127.0.0.1:10004]
+[2021-06-05 18:00:40,707] [INFO] [akka.cluster.singleton.ClusterSingletonManager] [ClusterSystem-akka.actor.default-dispatcher-11] [akka://ClusterSystem@127.0.0.1:39681/system/sharding/CabEntityCoordinator] - Member removed [akka://ClusterSystem@127.0.0.1:10004]
+XXXX Ride request from Customer 203 is Denied ! 
+</system-out>
+    <system-err>SLF4J: A number (4) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+</system-err>
+  </testcase>
+</testsuite>

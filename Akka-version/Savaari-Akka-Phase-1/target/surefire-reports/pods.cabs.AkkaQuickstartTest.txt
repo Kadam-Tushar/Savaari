@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: pods.cabs.AkkaQuickstartTest
+-------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.434 sec
+=======
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.476 sec
+>>>>>>> 47fc20406fa6a5767b80b01a3d4c0cc6f58349cf
